@@ -1,0 +1,52 @@
+# Information Security Assignment 1: Research on Computer Viruses
+
+**Student Name:** Komal  
+**Roll Number:** 123207  
+**Subject:** Information Security  
+**Instructor:** Sir Alvi
+
+---
+
+## 🔗 Project Links
+* **LinkedIn Research Post:** [View my professional article on LinkedIn](https://www.linkedin.com/posts/komal-shahzada_cybersecurity-informationsecurity-malwareanalysis-share-7434658864865730560-3m-b)
+
+---
+
+## 1. What is a Virus?
+A computer virus is a type of malicious software (malware) that, when executed, replicates itself by modifying other computer programs and inserting its own code.
+
+- **Key Characteristic:** It requires a host program to run.
+- **Purpose:** To steal data, damage files, or gain unauthorized access to a system.
+
+## 2. How it Works (The Lifecycle)
+A virus typically goes through four phases:
+1. **Dormant Phase:** The virus is hidden in the system, waiting for a trigger.
+2. **Propagation Phase:** The virus starts replicating and attaching itself to other files (.exe, .docx, etc.).
+3. **Triggering Phase:** An event (like a specific date or opening a file) activates the virus.
+4. **Execution Phase:** The "Payload" is delivered, which performs the actual harmful action.
+
+
+
+## 3. How to Make a Virus (Theoretical Research)
+Technically, a virus is created using programming languages like **C++, Python, or Assembly**.
+- **Infection Engine:** The part of the code that searches for new files to infect.
+- **Payload:** The actual malicious script.
+- **Self-Replication Logic:** Using system loops to copy the code into multiple directories.
+
+## 4. Educational Virus Logic (Python Example)
+*Disclaimer: This code is for educational and research purposes only. It does not perform any harmful action.*
+
+```python
+# Simple Python Logic to demonstrate file discovery (The first step of a virus)
+import os
+
+def demonstrate_logic():
+    # Scanning the current directory for text files
+    files = [f for f in os.listdir() if f.endswith('.txt')]
+    
+    for file in files:
+        print(f"Logic Triggered: Target identified -> {file}")
+        # In a real virus, this is where the 'Infection' code would go.
+
+if __name__ == "__main__":
+    demonstrate_logic()
