@@ -1,0 +1,40 @@
+# Information Security Assignment 2: Research on Flipper Zero
+
+**Student Name:** Komal  
+**Roll Number:** 123207  
+**Subject:** Information Security  
+**Instructor:** Sir Alvi
+
+---
+
+## 🔗 Project Links
+* **LinkedIn Research Post:** [View my Flipper Zero Research on LinkedIn](https://www.linkedin.com/posts/komal-shahzada_cybersecurity-informationsecurity-flipperzero-share-7434661018401947648-Nmd-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF_yp60Bca2yRedZWdyfwdxnbR2vujgj-Tg)
+
+---
+
+## 1. What is Flipper Zero?
+Flipper Zero is a portable multi-tool designed for penetration testers and cybersecurity enthusiasts. Often described as a "Swiss Army Knife" for hackers, it interacts with various digital and wireless protocols in the physical world.
+
+- **Main Goal:** To provide a hardware platform for researching and debugging different types of wireless signals and access control systems.
+- **Visual Interface:** It features a digital dolphin character that "levels up" as the user performs more security-related tasks.
+
+## 2. How it Works (Technical Modules)
+The device works by utilizing several built-in hardware modules to capture and emulate signals:
+
+1. **Sub-GHz Transceiver:** Operates in the 300-900 MHz range to interact with wireless devices like garage doors and barrier gates.
+2. **NFC & RFID:** Reads, saves, and emulates contactless cards (office entry cards, hotel keys).
+3. **Infrared (IR):** Can learn and replay signals from any remote control (TVs, ACs, Projectors).
+4. **BadUSB Mode:** Acts as a USB HID (Human Interface Device) to execute automated keyboard scripts (Payloads) on a computer.
+
+
+
+## 3. Applications and Use Cases
+Flipper Zero is used for professional security auditing and ethical hacking:
+
+* **Access Control Auditing:** Testing the strength of RFID and NFC-based entry systems.
+* **Signal Analysis:** Analyzing and replaying radio frequency signals to check for vulnerabilities in wireless devices.
+* **Hardware Debugging:** Using the GPIO pins to interface with and test external electronics and sensors.
+* **Security Awareness:** Demonstrating how easily unencrypted signals (like IR or simple RF) can be intercepted and emulated.
+
+---
+**Note:** This research is strictly for educational and ethical purposes under the Information Security curriculum.
